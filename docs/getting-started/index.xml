@@ -85,7 +85,7 @@ environments:&lt;/p>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="visit-crane-dashboard">Visit Crane Dashboard&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>kubectl -n crane-system port-forward service/craned 9090:9090
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Visit dashboard via &lt;a href="http://127.0.0.1:9090/">here&lt;/a>&lt;/p>
-&lt;p>&lt;img src="/images/dashboard.png" alt="">&lt;/p></description></item><item><title>Docs: Installation for crane</title><link>/docs/getting-started/installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/getting-started/installation/</guid><description>
+&lt;p>&lt;img src="/images/dashboard.png" alt="">&lt;/p></description></item><item><title>Docs: Installation</title><link>/docs/getting-started/installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/getting-started/installation/</guid><description>
 &lt;h2 id="prerequisites">Prerequisites&lt;/h2>
 &lt;ul>
 &lt;li>Kubernetes 1.18+&lt;/li>

@@ -1099,7 +1099,7 @@ environments:&lt;/p>
 &lt;/ul>
 &lt;p>At the scheduling &lt;code>Filter&lt;/code> stage, the node will be filtered if the actual usage rate of this node is greater than the threshold of any of the above metrics. And at the &lt;code>Score&lt;/code> stage, the final score is the weighted sum of these metrics&amp;rsquo; values.&lt;/p>
 &lt;h3 id="hot-value">Hot Value&lt;/h3>
-&lt;p>In the production cluster, scheduling hotspots may occur frequently because the load of the nodes can not increase immediately after the pod is created. Therefore, we define an extra metrics named &lt;code>Hot Value&lt;/code>, which represents the scheduling frequency of the node in recent times. And the final priority of the node is the final score minus the &lt;code>Hot Value&lt;/code>.&lt;/p></description></item><item><title>Docs: Installation for crane</title><link>/docs/getting-started/installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/getting-started/installation/</guid><description>
+&lt;p>In the production cluster, scheduling hotspots may occur frequently because the load of the nodes can not increase immediately after the pod is created. Therefore, we define an extra metrics named &lt;code>Hot Value&lt;/code>, which represents the scheduling frequency of the node in recent times. And the final priority of the node is the final score minus the &lt;code>Hot Value&lt;/code>.&lt;/p></description></item><item><title>Docs: Installation</title><link>/docs/getting-started/installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/getting-started/installation/</guid><description>
 &lt;h2 id="prerequisites">Prerequisites&lt;/h2>
 &lt;ul>
 &lt;li>Kubernetes 1.18+&lt;/li>
