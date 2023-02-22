@@ -26,7 +26,7 @@ For installation instructions see &lt;a href="https://kubernetes.io/docs/tasks/t
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cp kubectl-crane_&lt;span style="color:#e6db74">${&lt;/span>release&lt;span style="color:#e6db74">}&lt;/span>_Darwin_&lt;span style="color:#e6db74">${&lt;/span>arch&lt;span style="color:#e6db74">}&lt;/span>/kubectl-crane /usr/local/bin/
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="install-using-krew">Install using Krew&lt;/h3>
 &lt;p>&lt;code>Krew&lt;/code> is the plugin manager for &lt;code>kubectl&lt;/code> command-line tool.&lt;/p>
-&lt;p>&lt;a href="https://krew.sigs.k8s.io/docs/user-guide/setup/install/">Install and set up&lt;/a> Krew on your machine.&lt;/p>
+&lt;p>&lt;a href="https://krew.sigs.k8s.io/docs/user-guide/setup/install/">Install and setup&lt;/a> Krew on your machine.&lt;/p>
 &lt;p>Then install &lt;code>kubectl-crane&lt;/code> plug-in:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>kubectl krew install crane
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="build-from-source-code">Build from source code&lt;/h3>
